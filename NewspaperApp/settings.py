@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
+TIME_ZONE = 'Asia/Kathmandu'
+
 AUTH_USER_MODEL = 'accounts.CustomUser'
 
 MIDDLEWARE = [
