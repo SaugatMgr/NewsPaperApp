@@ -5,7 +5,7 @@
 {% block content %}
 <h1>Edit</h1>
 
-<form action="">{% csrf_token %}
+<form action="" method="post">{% csrf_token %}
     {{form|crispy}}
     <div class="btn btn-info ml-2" type="submit">Update</div>
 </form>
